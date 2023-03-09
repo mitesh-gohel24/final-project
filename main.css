@@ -1,0 +1,56 @@
+body{
+    box-sizing: border-box;
+    text-align: center;
+    /* border: 1px solid gray; */
+}
+.main-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace, 'Courier New', Courier;
+    margin-block-start: 0;
+}
+.content-title{
+    text-transform: uppercase;
+    font-family: monospace, 'Courier New', Courier;
+    font-weight: 700;
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+#box{
+    padding: 10px;
+    width: 350px;
+}
+.actions{
+    align-self: center;
+}
+#task-submit, button{
+    text-decoration: none;
+    background: none;
+    border: none;
+    opacity: 0.5;
+}
+#task-submit:hover ,button:hover{
+    opacity: 1;
+}
+.text{
+    padding: 10px;
+    width: 250px;
+    text-decoration: none;
+    border: none;
+    text-transform: capitalize;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+
+}
+.main {
+    width: 500px !important;
+}
+.input-form{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px 15px;
+}
